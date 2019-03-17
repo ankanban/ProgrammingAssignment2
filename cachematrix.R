@@ -2,6 +2,7 @@
 ## A cacheable matrix is a list with named elements that are methods that get/set the matrix
 ## and its inverse
 ## The matrix and the inverse are saved in the closure
+## Arguments to makeCacheMatrix() are the same as those for matrix()
 makeCacheMatrix <- function(...) {
     inv <- NULL
     x <- matrix(...)
